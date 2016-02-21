@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="RashRecord" representedClassName="RashRecord" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="des" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hos_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hos_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="identifier" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="nav_cal_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nav_gl_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="num_am_pin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="num_pm_pin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pt_left_hand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pt_left_leg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pt_right_hand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pt_right_leg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RashRecord" positionX="0" positionY="0" width="128" height="255"/>
+    </elements>
+</model>
